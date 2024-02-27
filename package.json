@@ -1,0 +1,16 @@
+{
+  "name": "dfac-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postcss": "npx tailwindcss -i ./ressources/styles/input.css -o ./ressources/styles/output.css --watch"
+  },
+  "repository": "https://github.com/vanotis720/dfac-website",
+  "author": "vander makadi <vanotis720@gmail.com>",
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
