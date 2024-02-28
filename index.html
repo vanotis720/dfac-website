@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
 </head>
 
 <body class="bg-white text-black">
-    <header id="home" class="h-screen">
+    <header id="home" class="md:h-screen">
         <nav class="h-24 flex justify-between items-center px-5 md:px-20 py-3 flex-wrap">
             <img class="h-full" src="ressources/images/logo-circle.png" alt="logo">
             <div class="block md:hidden">
@@ -44,15 +44,15 @@
                 </ul>
             </div>
         </nav>
-        <div class="md:flex mb-20 md:items-center border-y-4 border-yellow-400 bg-[#40789D] md:px-20">
+        <div class="md:flex mb-20 md:items-center border-y-4 border-green-400 bg-[#40789D] md:px-20">
             <div class="text-center md:text-left text-white md:mr-16 mt-8 md:mt-0">
                 <h1 class="capitalize text-3xl lg:text-8xl">Votre besoin, notre préoccupation </h1>
                 <p class="mt-5">
                     Nous somme une société multi-services, créée pour répondre aux besoins spécifiques de
                     la population
                 </p>
-                <div class="mx-auto md:mx-0 md:flex text-center mt-8 border-b-2 max-w-fit pb-3">
-                    <a href="#services" class="md:mr-2 text-xl">En savoir plus</a>
+                <div class="mx-auto md:mx-0 md:flex text-center mt-8 max-w-fit">
+                    <a href="#services" class="md:mr-2 text-xl border-b-2 pb-3">En savoir plus</a>
                     <svg class="fill-white rotate-6 hidden md:block" xmlns="http://www.w3.org/2000/svg" width="65.76062"
                         height="20.94" viewBox="0 0 65.76062 20.94" creator="Katerina Limpitsouni">
                         <path
@@ -64,12 +64,15 @@
                 </div>
             </div>
             <div class="py-16 px-5 md:px-0">
-                <img class="border-4 border-black w-full" src="ressources/images/hero.png" alt="hero-images">
+                <img class="border-4 border-yellow-400 w-full" src="ressources/images/hero.png" alt="hero-images">
             </div>
         </div>
     </header>
     <main>
-        <div class="border-b-4 border-yellow-400 grid grid-cols-1 md:grid-cols-3 px-24 mb-12">
+        <div id="services" class="border-b-4 border-green-400 grid grid-cols-1 md:grid-cols-3 md:px-24 mb-12 pb-8">
+            <div class="md:col-span-3 m-auto pb-8">
+                <h3 class="">Nos services</h3>
+            </div>
             <div class="flex border-b border-r p-8">
                 <svg xmlns="http://www.w3.org/2000/svg" width="55.59259" height="56.25544"
                     viewBox="0 0 55.59259 56.25544" creator="Katerina Limpitsouni">
