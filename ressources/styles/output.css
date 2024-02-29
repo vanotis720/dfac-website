@@ -657,6 +657,10 @@ video {
   top: 0px;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -3301,12 +3305,20 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:absolute {
+    position: absolute;
+  }
+
   .xl\:end-28 {
     inset-inline-end: 7rem;
   }
 
   .xl\:start-28 {
     inset-inline-start: 7rem;
+  }
+
+  .xl\:top-0 {
+    top: 0px;
   }
 
   .xl\:col-span-2 {
