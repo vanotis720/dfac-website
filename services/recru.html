@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DFAC recru | DFAC - Votre besoin, notre préoccupation</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link href="../ressources/styles/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-white text-black">
+    <header id="home" class=" mb-8">
+        <nav class="h-auto flex justify-between items-center px-5 md:px-20 py-3 flex-wrap">
+            <a class="h-24" href="#">
+                <img class="h-full" src="../ressources/images/logo-circle.png" alt="logo">
+            </a>
+            <div class="block md:hidden">
+                <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-[#40789D] border-[#40789D]
+                    xl:hover:text-[#40789D] xl:hover:border-[#40789D]">
+                    <svg class="fill-current h-5 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <title>Menu</title>
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden md:flex justify-center md:items-center py-5 xl:py-0 font-medium w-full md:w-auto bg-white px-5 md:px-0 z-20"
+                id="nav-content">
+                <ul class="md:flex">
+                    <li class="mb-3 xl:mb-0"><a
+                            class="mr-12 xl:hover:text-green-600 xl:hover:border-b-2 hover:border-green-600"
+                            href="../index.html">Accueil</a>
+                    </li>
+                    <li class="mb-3 xl:mb-0">
+                        <a class="mr-12 xl:hover:text-green-600 xl:hover:border-b-2 hover:border-green-600"
+                            href="../index.html#services">Services</a>
+                    </li>
+                    <li class="mb-3 xl:mb-0">
+                        <a class="mr-12 xl:hover:text-green-600 xl:hover:border-b-2 hover:border-green-600"
+                            href="../index.html#about">Apropos de nous</a>
+                    </li>
+                    <li class="mb-3 xl:mb-0">
+                        <a class="mr-12 xl:hover:text-green-600 xl:hover:border-b-2 hover:border-green-600"
+                            href="../index.html#testimony">Témoignages</a>
+                    </li>
+                    <li class="mb-3 xl:mb-0">
+                        <a class=" mr-12 xl:hover:text-green-600 xl:hover:border-b-2 hover:border-green-600"
+                            href="../index.html#contact">Nous
+                            contacter</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hidden xl:flex items-center border border-gray-600">
+                <div class="border-r size-14">
+                    <svg class="w-full p-2 fill-green-600" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M15.5562 14.5477L15.1007 15.0272C15.1007 15.0272 14.0181 16.167 11.0631 13.0559C8.10812 9.94484 9.1907 8.80507 9.1907 8.80507L9.47752 8.50311C10.1841 7.75924 10.2507 6.56497 9.63424 5.6931L8.37326 3.90961C7.61028 2.8305 6.13596 2.68795 5.26145 3.60864L3.69185 5.26114C3.25823 5.71766 2.96765 6.30945 3.00289 6.96594C3.09304 8.64546 3.81071 12.259 7.81536 16.4752C12.0621 20.9462 16.0468 21.1239 17.6763 20.9631C18.1917 20.9122 18.6399 20.6343 19.0011 20.254L20.4217 18.7584C21.3806 17.7489 21.1102 16.0182 19.8833 15.312L17.9728 14.2123C17.1672 13.7486 16.1858 13.8848 15.5562 14.5477Z">
+                            </path>
+                            <path
+                                d="M13.2595 1.87983C13.3257 1.47094 13.7122 1.19357 14.1211 1.25976C14.1464 1.26461 14.2279 1.27983 14.2705 1.28933C14.3559 1.30834 14.4749 1.33759 14.6233 1.38082C14.9201 1.46726 15.3347 1.60967 15.8323 1.8378C16.8286 2.29456 18.1544 3.09356 19.5302 4.46936C20.906 5.84516 21.705 7.17097 22.1617 8.16725C22.3899 8.66487 22.5323 9.07947 22.6187 9.37625C22.6619 9.52466 22.6912 9.64369 22.7102 9.72901C22.7197 9.77168 22.7267 9.80594 22.7315 9.83125L22.7373 9.86245C22.8034 10.2713 22.5286 10.6739 22.1197 10.7401C21.712 10.8061 21.3279 10.53 21.2601 10.1231C21.258 10.1121 21.2522 10.0828 21.2461 10.0551C21.2337 9.9997 21.2124 9.91188 21.1786 9.79572C21.1109 9.56339 20.9934 9.21806 20.7982 8.79238C20.4084 7.94207 19.7074 6.76789 18.4695 5.53002C17.2317 4.29216 16.0575 3.59117 15.2072 3.20134C14.7815 3.00618 14.4362 2.88865 14.2038 2.82097C14.0877 2.78714 13.9417 2.75363 13.8863 2.7413C13.4793 2.67347 13.1935 2.28755 13.2595 1.87983Z">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M13.4857 5.3293C13.5995 4.93102 14.0146 4.7004 14.4129 4.81419L14.2069 5.53534C14.4129 4.81419 14.4129 4.81419 14.4129 4.81419L14.4144 4.81461L14.4159 4.81505L14.4192 4.81602L14.427 4.81834L14.4468 4.8245C14.4618 4.82932 14.4807 4.8356 14.5031 4.84357C14.548 4.85951 14.6074 4.88217 14.6802 4.91337C14.8259 4.97581 15.0249 5.07223 15.2695 5.21694C15.7589 5.50662 16.4271 5.9878 17.2121 6.77277C17.9971 7.55775 18.4782 8.22593 18.7679 8.7154C18.9126 8.95991 19.009 9.15897 19.0715 9.30466C19.1027 9.37746 19.1254 9.43682 19.1413 9.48173C19.1493 9.50418 19.1555 9.52301 19.1604 9.53809L19.1665 9.55788L19.1688 9.56563L19.1698 9.56896L19.1702 9.5705C19.1702 9.5705 19.1707 9.57194 18.4495 9.77798L19.1707 9.57194C19.2845 9.97021 19.0538 10.3853 18.6556 10.4991C18.2607 10.6119 17.8492 10.3862 17.7313 9.99413L17.7276 9.98335C17.7223 9.96832 17.7113 9.93874 17.6928 9.89554C17.6558 9.8092 17.5887 9.66797 17.4771 9.47938C17.2541 9.10264 16.8514 8.53339 16.1514 7.83343C15.4515 7.13348 14.8822 6.73078 14.5055 6.50781C14.3169 6.39619 14.1757 6.32909 14.0893 6.29209C14.0461 6.27358 14.0165 6.26254 14.0015 6.25721L13.9907 6.25352C13.5987 6.13564 13.3729 5.72419 13.4857 5.3293Z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="p-2">
+                    <p class="text-gray-600">Vous avez une question ?</p>
+                    <a class="font-bold" href="tel:243810003500">+243 810003500</a>
+                </div>
+            </div>
+        </nav>
+        <div class="h-1/3">
+            <img src="../ressources/images/dept/recru.jpg" class="h-full w-full" alt="service background-image">
+        </div>
+    </header>
+    <main>
+        <div class="container mx-auto py-12">
+            <div class="max-w-4xl mx-auto">
+                <p class="text-lg text-gray-700  mx-8">
+                    Dfac recru est un Département de Dfac sarl qui fonctionne sous forme d’un cabinet de recrutement
+                    professionnel qui déniche pour nos clients des profil rechercher en procédant à un recrutement
+                    rigoureux pour finalement le placer à la place qui convient le mieux tout en assurant la supervision
+                    et l'évaluation du profil pour une satisfaction complète du client
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer
+        class=" bg-gradient-to-r from-green-300 to-blue-300 pt-12 pb-5 px-5 xl:px-28 grid grid-cols-1 justify-between text-black"
+        id="footer">
+        <div class="">
+            <div class="xl:flex justify-center items-center mb-12">
+                <a class="mr-5" href="#">
+                    <img class="size-32" src="../ressources/images/logo-circle.png" alt="logo">
+                </a>
+                <div class="">
+                    <h3 class="text-2xl font-bold mb-5">
+                        Votre besoin, notre préoccupation.
+                    </h3>
+                    <div class="flex items-center my-5 xl:my-0">
+                        <a class="border-2 border-black hover:border-none hover:bg-[#25D366] mx-3 p-2 rounded-full group"
+                            href="https://wa.me/243974944879" target="_blank">
+                            <svg class="size-4 xl:size-6 fill-black group-hover:fill-white m-1" role="img"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>WhatsApp</title>
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                            </svg>
+                        </a>
+                        <a class="border-2 border-black hover:border-none hover:bg-[#E4405F] mx-3 p-2 rounded-full group"
+                            href="https://www.instagram.com/" target="_blank">
+                            <svg class="size-4 xl:size-6 fill-black group-hover:fill-white m-1" role="img"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Instagram</title>
+                                <path
+                                    d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" />
+                            </svg>
+                        </a>
+                        <a class="border-2 border-black hover:border-none hover:bg-black mx-3 p-2 rounded-full group"
+                            href="https://twitter.com/" target="_blank">
+                            <svg class="size-4 xl:size-6 fill-black group-hover:fill-white m-1" role="img"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>X</title>
+                                <path
+                                    d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+                            </svg>
+                        </a>
+                        <a class="border-2 border-black hover:border-none hover:bg-black mx-3 p-2 rounded-full group"
+                            href="https://www.tiktok.com/" target="_blank">
+                            <svg class="size-4 xl:size-6 fill-black group-hover:fill-white m-1" role="img"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>TikTok</title>
+                                <path
+                                    d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
+                            </svg>
+                        </a>
+                        <a class="border-2 border-black hover:border-none hover:bg-blue-600 mx-3 p-2 rounded-full group"
+                            href="https://www.facebook.com/" target="_blank">
+                            <svg class="size-4 xl:size-6 fill-black group-hover:fill-white m-1" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                                <title>Facebook</title>
+                                <path
+                                    d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col xl:flex-row justify-center xl:gap-8 font-light text-lg my-5 xl:my-0 uppercase">
+            <a class="hover:text-blue-600 hover:underline mb-3" href="../index.html">Accueil</a>
+            <a class="hover:text-blue-600 hover:underline mb-3" href="../index.html#services">Services</a>
+            <a class="hover:text-blue-600 hover:underline mb-3" href="../index.html#about">Apropos de nous</a>
+            <a class="hover:text-blue-600 hover:underline mb-3" href="../index.html#testimony">Témoignages</a>
+            <a class="hover:text-blue-600 hover:underline mb-3" href="../index.html#contact">Nous contacter</a>
+        </div>
+        <!-- <div class="xl:col-span-2 mt-4 text-center">
+        <span class="text-gray-700 font-medium">© 2024 DFAC. Tous droits réservés.</span>
+    </div> -->
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('nav-toggle').addEventListener('click', function () {
+                var navContent = document.getElementById('nav-content');
+                if (navContent.classList.contains('hidden')) {
+                    navContent.classList.remove('hidden');
+                } else {
+                    navContent.classList.add('hidden');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
